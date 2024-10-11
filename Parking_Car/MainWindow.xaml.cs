@@ -30,6 +30,8 @@ namespace Parking_Car
             
 
         }
+       
+
         private void Vdriver(object sender, RoutedEventArgs e)
         {
             _context.Drivers.Load();
@@ -60,6 +62,23 @@ namespace Parking_Car
             
 
         }
+        private void ShowPage_Click(object sender, RoutedEventArgs e)
+        {
+            Wondows.Drivers.Index Window = new Wondows.Drivers.Index();
+            Window.Show();
+        }
+
+        private void ShowDrivers_Click(object sender, RoutedEventArgs e)
+        {
+            Wondows.Vehicles.Index secondWindow = new Wondows.Vehicles.Index();
+            secondWindow.Show();
+        }
+        private void ShowSlots_Click(object sender, RoutedEventArgs e)
+        {
+            Wondows.Parking_Slots.Index slotwindow = new Wondows.Parking_Slots.Index();
+            slotwindow.Show();
+        }
+
         //private void LoadData()
         //{
         //    // Add sample data (you'd query from your SQLite database)

@@ -20,7 +20,11 @@
         <TextBox x:Name="txtname" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Top" Width="175" Height="95"/>
         <Button x:Name="button" Grid.Column="1" Content="Button" Click="Vdriver" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="196" Height="82"/>
         <DataGrid x:Name="dataGrid" Grid.Row="1" />
+        <StackPanel Grid.Column="2" Grid.Row="1">
+            <Button Content="Show Drivers"  Click="ShowPage_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+            <Button Content="Show Vehicles"  Click="ShowDrivers_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+            <Button Content="Show Slot"  Click="ShowSlots_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
 
-
+        </StackPanel>
     </Grid>
 </Window>

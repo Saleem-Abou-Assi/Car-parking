@@ -14,4 +14,19 @@
     <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Wondows\Parking_Slots\Edit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Wondows\Parking_Slots\Index.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Wondows\Vehicles\Edit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Wondows\Vehicles\Index.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

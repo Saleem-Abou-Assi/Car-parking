@@ -1,0 +1,26 @@
+﻿<Window x:Class="Parking_Car.Wondows.Parking_Slots.Edit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Parking_Car.Wondows.Drivers"
+        mc:Ignorable="d"
+        Title="Edit" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label x:Name="labelName" Content="Number"></Label>
+            <TextBox x:Name="NumTextBox" Margin="10" />
+
+            <Label x:Name="satus" Content="Status" />
+            <ComboBox x:Name="StatusComboBox" Margin="10">
+                <ComboBoxItem Content="محجوز" />
+                <ComboBoxItem Content="متاح" />
+            
+            </ComboBox>
+
+            <Button x:Name="SaveButton" Content="Save" Click="SaveButton_Click" Margin="10" />
+            <Button x:Name="AddButton" Content="Save" Click="AddButton_Click" Margin="10" />
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -21,4 +21,8 @@ namespace Parking_Car.Models
         متاح,
         // Add other statuses as needed
     }
+    public class DriverName
+    {
+        public string FullName { get; set; }
+    }
 }
