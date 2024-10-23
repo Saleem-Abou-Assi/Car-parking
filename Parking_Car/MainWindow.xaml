@@ -24,6 +24,7 @@
             <Button Content="Show Drivers"  Click="ShowPage_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
             <Button Content="Show Vehicles"  Click="ShowDrivers_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
             <Button Content="Show Slot"  Click="ShowSlots_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+            <Button Content="Show Records"  Click="ShowRecord_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
 
         </StackPanel>
     </Grid>

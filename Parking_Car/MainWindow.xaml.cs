@@ -78,45 +78,51 @@ namespace Parking_Car
             Wondows.Parking_Slots.Index slotwindow = new Wondows.Parking_Slots.Index();
             slotwindow.Show();
         }
+         
+        private void ShowRecord_Click(object sender, RoutedEventArgs e)
+        {
+            Wondows.Parking_Records.Index reocordwindow = new Wondows.Parking_Records.Index();
+            reocordwindow.Show();
+        }
 
-        //private void LoadData()
-        //{
-        //    // Add sample data (you'd query from your SQLite database)
-        //    //_context.Drivers.Add(new Driver { FirstName = "John", LastName = "Doe", Phone = "0959877217" });
-        //    //_context.Vehicles.Add(new Vehicle { PlateNumber = "ABC123", DriverId = 1, Type = VehicleType.سيارة, Description = "asdasd" });
+            //private void LoadData()
+            //{
+            //    // Add sample data (you'd query from your SQLite database)
+            //    //_context.Drivers.Add(new Driver { FirstName = "John", LastName = "Doe", Phone = "0959877217" });
+            //    //_context.Vehicles.Add(new Vehicle { PlateNumber = "ABC123", DriverId = 1, Type = VehicleType.سيارة, Description = "asdasd" });
 
-        //    //_context.SaveChanges();
-        //    _context.Drivers.Load();
-        //    _context.Vehicles.Load();
-        //    //DataGrid1.ItemsSource = _context.Drivers.Local.ToObservableCollection();
-        //    DataGrid2.ItemsSource = _context.Vehicles.Local.ToObservableCollection();
+            //    //_context.SaveChanges();
+            //    _context.Drivers.Load();
+            //    _context.Vehicles.Load();
+            //    //DataGrid1.ItemsSource = _context.Drivers.Local.ToObservableCollection();
+            //    DataGrid2.ItemsSource = _context.Vehicles.Local.ToObservableCollection();
 
-        //    var Drivers = _context.Drivers.ToList();
-        //    var selectedCol = Drivers.Select(d => new
-        //    {
-        //        firstName = d.FirstName,
-        //        lastName = d.LastName,
-        //        phone = d.Phone,
-        //        totalParking = d.TotalParking,
-        //    }).ToList();
+            //    var Drivers = _context.Drivers.ToList();
+            //    var selectedCol = Drivers.Select(d => new
+            //    {
+            //        firstName = d.FirstName,
+            //        lastName = d.LastName,
+            //        phone = d.Phone,
+            //        totalParking = d.TotalParking,
+            //    }).ToList();
 
-        //    DataGrid1.ItemsSource = selectedCol;
-        //}
-
-
-        //private void SearchDriverByName(object sender, RoutedEventArgs e)
-        //{
-        //    _context.Drivers.Load();
-
-        //    var driverName = txtSearchName.Text.Trim(); // Get the entered name
-        //    MessageBox.Show(driverName.ToString());
-        //    var filteredDrivers = _context.Drivers
-        //        //.Where(d => d.FirstName.Contains(driverName.ToString()))
-        //        .ToList();
-
-        //    DataGrid3.ItemsSource = filteredDrivers;
-        //}
+            //    DataGrid1.ItemsSource = selectedCol;
+            //}
 
 
-    }
+            //private void SearchDriverByName(object sender, RoutedEventArgs e)
+            //{
+            //    _context.Drivers.Load();
+
+            //    var driverName = txtSearchName.Text.Trim(); // Get the entered name
+            //    MessageBox.Show(driverName.ToString());
+            //    var filteredDrivers = _context.Drivers
+            //        //.Where(d => d.FirstName.Contains(driverName.ToString()))
+            //        .ToList();
+
+            //    DataGrid3.ItemsSource = filteredDrivers;
+            //}
+
+
+        }
 }

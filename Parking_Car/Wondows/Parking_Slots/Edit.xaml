@@ -12,7 +12,7 @@
             <TextBox x:Name="NumTextBox" Margin="10" />
 
             <Label x:Name="satus" Content="Status" />
-            <ComboBox x:Name="StatusComboBox" Margin="10">
+            <ComboBox x:Name="StatusComboBox" Margin="10" IsEditable="True">
                 <ComboBoxItem Content="محجوز" />
                 <ComboBoxItem Content="متاح" />
             

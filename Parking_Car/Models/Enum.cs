@@ -25,4 +25,12 @@ namespace Parking_Car.Models
     {
         public string FullName { get; set; }
     }
+    public class ParkingRecordData
+    {
+        public string VehicleId { get; set; }
+        public string SlotId { get; set; }
+        public string TimeIn { get; set; }
+        public string TimeOut { get; set; }
+        public string Parcode { get; set; }
+    }
 }
